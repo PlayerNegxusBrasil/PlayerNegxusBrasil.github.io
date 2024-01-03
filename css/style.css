@@ -1,0 +1,26 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+#game-container {
+  margin: 50px;
+  padding: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#player-info, #dragon-info {
+  margin-top: 20px;
+}
+
+#player-health, #player-attack, #player-level, #player-experience, #dragon-health, #dragon-count {
+  font-weight: bold;
+}
